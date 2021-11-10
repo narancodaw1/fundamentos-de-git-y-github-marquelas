@@ -1,0 +1,16 @@
+
+package Bucles1;
+import java.util.Scanner;
+public class pideunnumero {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.print("Introduzca un número entero: ");
+		int numero=1;
+		
+    while(numero>0) {
+    	System.out.print("Introduzca otro numero entero: ");
+    }
+	}
+
+}

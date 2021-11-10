@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class teclado {
+
+	public static void main(String[] args) {
+		   Scanner sc = new Scanner(System.in);
+		   System.out.print("Introduce una letra > ");
+		   String letter = sc.nextLine();
+		   if (letter = 'Y' || 'y') {
+			   System.out.println("Afirmativo");
+		   }
+		   else if (letter = 'n' || 'N');
+		   {
+			   System.out.println("Negativo");
+		   }
+
+	}
+
+}
